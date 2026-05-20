@@ -7,11 +7,11 @@ c     nfmax: max. no of frequency samples.
 c     nzsmax: max. number of source depths
 c
       integer lmax,nzmax,nrmax,nfmin,nfmax,ntmax,nzsmax
-      parameter(lmax=500)
+      parameter(lmax=100)
       parameter(nzmax=lmax+3)
-      parameter(nrmax=2001)
+      parameter(nrmax=251)
       parameter(nfmin=64)
-	parameter(nfmax=1024)
+      parameter(nfmax=1024)
       parameter(ntmax=2*nfmax)
       parameter(nzsmax=500)
 c
@@ -35,7 +35,7 @@ c     ================================================
 c     gamma = 4*pi*G
 c
       double precision g0,gamma,rearth
-      parameter(g0=9.82d+00,gamma=8.38579d-10,rearth=6.371d+06)
+      parameter(g0=9.80665d+00,gamma=8.38579d-10,rearth=6.371d+06)
       double precision denswater
       parameter(denswater=1.0d+03)
 c

@@ -3,6 +3,8 @@
 /configure
 /install-sh
 /missing
+/config.guess
+/config.sub
 /py-compile
 /Makefile.in
 /src/Makefile.in
@@ -17,3 +19,5 @@
 /src/psgrn/Makefile
 /src/psgrn/Makefile.in
 /src/psgrn/fomosto_psgrn2008a
+*~
+configure~

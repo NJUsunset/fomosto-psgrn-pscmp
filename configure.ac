@@ -5,6 +5,7 @@ AC_PREREQ([2.68])
 AC_INIT([fomosto-psgrn-pscmp], [2008a])
 AM_INIT_AUTOMAKE([-Wall -Werror foreign])
 AC_PROG_F77
+AC_CANONICAL_HOST
 AC_CONFIG_FILES([
                  Makefile
                  src/psgrn/Makefile
