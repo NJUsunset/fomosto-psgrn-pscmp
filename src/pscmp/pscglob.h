@@ -15,10 +15,10 @@ c     NSCMAX = max. number of scenario outputs (<= NTRMAX/2)
 c~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
       integer NZSMAX,NRMAX,NEQMAX,NSMAX,NPTCHMAX
       integer NPSMAX,NRECMAX,NTMAX,NTRMAX,NSCMAX
-      parameter(NZSMAX=1000,NRMAX=4000)
+      parameter(NZSMAX=500,NRMAX=4000)
       parameter(NEQMAX=20,NSMAX=5000,NPTCHMAX=1000)
-      parameter(NPSMAX=40000)
-      parameter(NRECMAX=40000)
+      parameter(NPSMAX=10000)
+      parameter(NRECMAX=10000)
       parameter(NTMAX=1024,NTRMAX=1024)
       parameter(NSCMAX=NTRMAX/2)
 c~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
