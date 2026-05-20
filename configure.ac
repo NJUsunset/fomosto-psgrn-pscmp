@@ -11,5 +11,9 @@ AC_CONFIG_FILES([
                  src/pscmp/Makefile
                  ])
 
-AC_SUBST([AM_FFLAGS], [])
+case $host_os in
+  linux*) AM_FFLAGS="-mcmodel=medium" ;;
+  *)      AM_FFLAGS="" ;;
+esac
+AC_SUBST([AM_FFLAGS])
 AC_OUTPUT
